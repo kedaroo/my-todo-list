@@ -1,0 +1,23 @@
+nav {
+    border-bottom: 2px solid black;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}

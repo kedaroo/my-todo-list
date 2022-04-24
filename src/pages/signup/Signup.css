@@ -1,7 +1,7 @@
 form {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +23,7 @@ input {
     padding: 0.5rem 0.8rem;
 }
 
-button {
+.btn {
     cursor: pointer;
     background-color: var(--primary-color);
     border: none;

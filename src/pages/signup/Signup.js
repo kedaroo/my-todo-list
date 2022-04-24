@@ -16,6 +16,7 @@ export default function Signup() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <h1>signup</h1>
             <label>
                 <span>email:</span>
                 <input 
@@ -34,7 +35,7 @@ export default function Signup() {
                     value={password}
                 />
             </label>
-            <button>{isPending ? 'signing up...' : 'sign up'}</button>
+            <button className='btn'>{isPending ? 'signing up...' : 'sign up'}</button>
             {error && <p>{error}</p>}
         </form>
     )
