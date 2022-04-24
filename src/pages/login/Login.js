@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useLogin } from '../../hooks/useLogin'
 
+import './Login.css'
+
 export default function Login() {
 
     const [email, setEmail] = useState('')
@@ -13,7 +15,7 @@ export default function Login() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='form'>
             <label>
                 <span>email:</span>
                 <input 
