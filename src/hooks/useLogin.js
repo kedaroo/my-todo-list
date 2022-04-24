@@ -15,7 +15,8 @@ export const useLogin = () => {
             setIsPending(false)
         } catch (err) {
             setIsPending(false)
-            setError(err.message)
+            console.log(err.message)
+            setError('could not log you in. please try again')
         }   
     }
 
