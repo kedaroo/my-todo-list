@@ -21,3 +21,11 @@ nav {
     color: black;
     margin-left: 1rem;
 }
+
+.btn-logout {
+    border: 2px solid var(--primary-color);
+    background: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+}
